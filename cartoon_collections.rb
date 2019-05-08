@@ -7,7 +7,7 @@ def roll_call_dwarves(arg)
     num += 1
   end
 end
-
+#=================================================
 def summon_captain_planet(arg)
   fam = Array.new()
   arg.each do |planeteer|

@@ -25,5 +25,7 @@ end
 #==================================================
 def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arg.find(cheese_types)
+  arg.find do 
+    arg.include?(cheese_types)
+  end
 end

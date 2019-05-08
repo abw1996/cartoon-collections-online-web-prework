@@ -8,7 +8,7 @@ def roll_call_dwarves(arg)
   end
 end
 #=================================================
-def summon_captain_planet(arg)arn
+def summon_captain_planet(arg)
   fam = Array.new()
   arg.each do |planeteer|
     fam.push(planeteer.capitalize + "!")

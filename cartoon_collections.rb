@@ -25,7 +25,7 @@ end
 #==================================================
 def find_the_cheese(arg)
   if arg.include?(cheddar)
-    return cheddar
+    return "cheddar"
   else nil
   end
 end

@@ -15,14 +15,14 @@ def summon_captain_planet(arg)
   end
   return fam
 end
-
+#================================================
 def long_planeteer_calls(arg)
   arg.any? do |call|
   call.length > 4
 end
 
 end
-
+#==================================================
 def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arg.include?(cheese_types)

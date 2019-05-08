@@ -25,5 +25,5 @@ end
 #==================================================
 def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arg.index(cheese_types)
+  index = arg.index(cheese_types)
 end
